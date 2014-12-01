@@ -9,5 +9,7 @@
   <folder name="Relations" id="7863c83e" type="relations"/>
   <folder name="Views" id="953fb3f3" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="48c3ceaf" name="Default View"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="4a409646" name="Organization View"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="45496b5d" name="Product View"/>
   </folder>
 </archimate:model>

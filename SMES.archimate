@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="SMES" id="13bc9124" version="3.0.0">
-  <folder name="Business" id="4734d03e" type="business"/>
+  <folder name="Business" id="4734d03e" type="business">
+    <element xsi:type="archimate:BusinessRole" id="14a38d5a" name="Standard Hoppers"/>
+    <element xsi:type="archimate:BusinessRole" id="617275e6" name="Custom Built Hoppers"/>
+    <element xsi:type="archimate:BusinessRole" id="8164898f" name="SMES New Build"/>
+    <element xsi:type="archimate:BusinessRole" id="2f24b0fb" name="SMES Components"/>
+    <element xsi:type="archimate:BusinessRole" id="09a44cd2" name="Area Management"/>
+  </folder>
   <folder name="Application" id="2bfc6ab2" type="application"/>
   <folder name="Technology" id="1fe4f093" type="technology"/>
   <folder name="Motivation" id="186121f7" type="motivation"/>
@@ -9,7 +15,24 @@
   <folder name="Relations" id="7863c83e" type="relations"/>
   <folder name="Views" id="953fb3f3" type="diagrams">
     <element xsi:type="archimate:ArchimateDiagramModel" id="48c3ceaf" name="Default View"/>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="4a409646" name="Organization View"/>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="4a409646" name="Organization View">
+      <child xsi:type="archimate:DiagramObject" id="843d358d" textAlignment="2" archimateElement="14a38d5a">
+        <bounds x="528" y="48" width="191" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="c43fae9b" textAlignment="2" archimateElement="617275e6">
+        <bounds x="528" y="108" width="191" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="4159c165" textAlignment="2" archimateElement="8164898f">
+        <bounds x="575" y="192" width="144" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="f7a82400" textAlignment="2" archimateElement="2f24b0fb">
+        <bounds x="575" y="252" width="144" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="316c0165" textAlignment="2" archimateElement="09a44cd2">
+        <bounds x="575" y="336" width="144" height="55"/>
+      </child>
+      <property/>
+    </element>
     <element xsi:type="archimate:ArchimateDiagramModel" id="45496b5d" name="Product View"/>
   </folder>
 </archimate:model>
