@@ -1855,7 +1855,7 @@
         </child>
       </child>
       <child xsi:type="archimate:DiagramObject" id="44ba0b39" textAlignment="2" archimateElement="3b9b3879">
-        <bounds x="24" y="1428" width="997" height="422"/>
+        <bounds x="24" y="1428" width="721" height="217"/>
         <child xsi:type="archimate:DiagramObject" id="71d4105f" targetConnections="54fae8f0" archimateElement="489a5937">
           <bounds x="172" y="44" width="15" height="15"/>
           <sourceConnection xsi:type="archimate:Connection" id="4c7057c3" source="71d4105f" target="e78f5408" relationship="a6d12c20"/>
